@@ -1,0 +1,20 @@
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
+export PATH=$PATH:"~/.composer/vendor/bin"
+export PATH=$PATH:"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin"
+export PATH=$PATH:"~/posh-themes"
+export GEM_PATH="/Users/anthonycastaneda/.gem/ruby/2.6.0/bin"
+export PATH="$GEM_PATH:$PATH"
+eval "$(oh-my-posh --init --shell zsh --config '~/Documents/anthony.omp.json')"
+enable_poshtransientprompt
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
+
+
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
