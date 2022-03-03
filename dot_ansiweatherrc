@@ -1,0 +1,43 @@
+# .ansiweatherrc example showing all available options
+
+api_key:85a4e3c55b73909f42c6a23ec35b7147
+fetch_cmd:curl -sf
+location:4699540
+units:imperial
+forecast:0
+ansi:true
+symbols:true
+show_feels_like:false
+show_uvi:false
+show_wind:true
+show_humidity:false
+show_pressure:false
+show_daylight:true
+dateformat:%a %b %d
+timeformat:%b %d %r
+
+# Text and Colors
+background:\033[30;1m
+text:\033[34;1m
+data:\033[33;1m
+delimiter:\033[31;1m:
+dashes:\033[37;1m
+forecast_text:forecast
+greeting_text:Weather in
+humidity_text:Humidity
+pressure_text:Pressure
+sunrise_text:Sunrise
+sunset_text:Sunset
+wind_directions:N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW
+wind_text:Wind
+
+# Icons
+sun:\033[33;1m\xE2\x98\x80
+moon:\033[36m\xF0\x9F\x8C\x99
+clouds:\033[37;1m\xE2\x9B\x85
+rain:\033[37;1m\xE2\x98\x94
+fog:\033[37;1m\xF0\x9F\x8C\x81
+mist:\033[34m\xF0\x9F\x8C\x81
+haze:\033[33m\xF0\x9F\x8C\x81
+snow:\033[37;1m\xE2\x9D\x84
+thunderstorm:U+1F329	
